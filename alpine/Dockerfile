@@ -1,4 +1,4 @@
-FROM public.ecr.aws/bitnami/python:latest
+FROM python:alpine
 ENV PYTHONUNBUFFERED 1
 WORKDIR /app
 COPY ./requirements.txt /app/requirements.txt

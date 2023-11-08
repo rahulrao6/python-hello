@@ -1,4 +1,4 @@
-FROM python:slim
+FROM public.ecr.aws/bitnami/python:latest
 
 ENV PYTHONUNBUFFERED 1
 WORKDIR /app
